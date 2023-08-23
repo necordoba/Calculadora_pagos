@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de Pagos</title>
+    <link rel="stylesheet" type="text/css" href="calculadora.css">
+</head>
+<body>
+    <h1>Calculadora de Pagos</h1>
+    <div class="formulario">
+        <label for="nombre">Nombre del estudiante:</label>
+        <input type="text" id="nombre" placeholder="Ingrese el nombre">
+        <label for="estrato">Estrato:</label>
+        <select id="estrato">
+            <option value="1">Estrato 1</option>
+            <option value="2">Estrato 2</option>
+            <option value="3">Estrato 3</option>
+            <option value="4">Estrato 4</option>
+            <option value="5">Estrato 5</option>
+            <option value="6">Estrato 6</option>
+        </select>
+        <button id="calcular">Calcular</button>
+    </div>
+    <div class="resultado">
+        <h2>Resultado:</h2>
+        <p>Nombre: <span id="resultado-nombre"></span></p>
+        <p>Estrato: <span id="resultado-estrato"></span></p>
+        <p>Descuento: <span id="resultado-descuento"></span></p>
+        <p>Recargo: <span id="resultado-recargo"></span></p>
+        <p>Neto a pagar: <span id="resultado-neto"></span></p>
+    </div>
+
+    <script src="calculadora.js"></script>
+</body>
+</html>
